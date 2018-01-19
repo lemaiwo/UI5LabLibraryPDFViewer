@@ -67,7 +67,7 @@
 			]
 		},
 		"resourceRoots": {
-			"ui5lab.wl.pdf": "../../../../../resources/ui5lab/wl/pdf"
+			"ui5lab.wl.pdf": "./libs/ui5lab/wl/pdf"
 		},
 		"routing": {
 			"config": {

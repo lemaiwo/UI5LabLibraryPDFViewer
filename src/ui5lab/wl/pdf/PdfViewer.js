@@ -1,7 +1,8 @@
 sap.ui.define(["sap/ui/core/Control",
 	"./utils/ControlUtils",
 	"sap/ui/model/json/JSONModel",
-	"./libs/pdf"
+	"./libs/pdf",
+	"./libs/pdf.worker"
 ], function(Control, ControlUtils, JSONModel) {
 	"use strict";
 	return Control.extend("ui5lab.wl.pdf.PdfViewer", {
@@ -98,7 +99,7 @@ sap.ui.define(["sap/ui/core/Control",
 				this.firstTime = false;
 				var pdfData = atob(this.getPdfSource().split(",")[1]);
 
-				PDFJS.workerSrc = jQuery.sap.getModulePath("ui5lab.wl.pdf.libs.pdf") + ".worker.js";
+				// PDFJS.workerSrc = jQuery.sap.getModulePath("ui5lab.wl.pdf.libs.pdf") + ".worker.js";
 
 				var loadingTask = PDFJS.getDocument({
 					data: pdfData
