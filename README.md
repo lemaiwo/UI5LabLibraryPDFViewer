@@ -11,7 +11,7 @@ The PDFViewer is a custom UI5 control that enables you to view PDF's by using a 
 
 ### Include the library in your project
 1. Include the library-preload.js in your project
-<img src="https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/images/includelib.v"/>
+<img src="https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/images/includelib.png"/>
 
 2. Configure the manifest.json
 <img src="https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/images/manifestlib.png"/>
