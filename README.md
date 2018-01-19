@@ -20,5 +20,10 @@ The PDFViewer is a custom UI5 control that enables you to view PDF's by using a 
 <img src="https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/images/pdfview.png"/>
 
 ## Build
+npm install
+grunt build
+
+For WebIDE
+Use Package and Grunt with WebIDE extension (remove webide out of the filename)
 1. import in the SAP Web IDE
 2. Right click on the project --> Build 
