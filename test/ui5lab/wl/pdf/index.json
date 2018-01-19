@@ -5,7 +5,7 @@
 		"description": "A library with a PDF control that will show a PDF based on a base64 data uri",
 		"source" : "https://github.com/lemaiwo/UI5LabLibraryPDFViewer",
 		"documentation": "https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/README.md",
-		"demo": "https://htmlpreview.github.io/?https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/dist/test-resources/ui5lab/wl/pdf/demo/index.html",
+		"demo": "https://htmlpreview.github.io/?https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/test/ui5lab/wl/pdf/demo/index.html",
 		"license": "MIT",
 		"version": 1.0,
 		"content": {
