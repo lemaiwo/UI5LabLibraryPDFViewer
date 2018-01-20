@@ -154,7 +154,6 @@ module.exports = function(grunt) {
 
 	// Default task
 	grunt.registerTask('default', [
-		'lint',
 		'clean',
 		'build',
 		'serve:dist'
