@@ -19,7 +19,8 @@
 					{
 						"id": "PDFUpload",
 						"name": "Upload PDF",
-						"description": "Upload a PDF and show it immediately as a base 64 data uri"
+						"description": "Upload a PDF and show it immediately as a base 64 data uri",
+						"url": "https://htmlpreview.github.io/?https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/test/ui5lab/wl/pdf/demo/index.html"
 					}
 				]
 			}
