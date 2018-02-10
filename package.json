@@ -10,7 +10,7 @@
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified. Please add some.\" && exit 1",
-    "postinstall": "node ./script.js",
+    "postinstall": "node ./installscripts/script.js",
     "start": "grunt"
   },
   "devDependencies": {
