@@ -29,6 +29,7 @@ module.exports = function(grunt) {
 					resources: [
 						'<%= dir.bower_components %>/openui5-sap.ui.core/resources',
 						'<%= dir.bower_components %>/openui5-sap.m/resources',
+						'<%= dir.bower_components %>/openui5-sap.ui.unified/resources',
 						'<%= dir.bower_components %>/openui5-sap.f/resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.layout/resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.unified/resources',
@@ -38,6 +39,7 @@ module.exports = function(grunt) {
 					testresources: [
 						'<%= dir.bower_components %>/openui5-sap.ui.core/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.m/test-resources',
+						'<%= dir.bower_components %>/openui5-sap.ui.unified/test-resources',
 						// TODO: how to get rid of these indirect dependencies only needed for the browser (f + layout)
 						'<%= dir.bower_components %>/openui5-sap.f/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.layout/test-resources',
@@ -53,6 +55,7 @@ module.exports = function(grunt) {
 					resources: [
 						'<%= dir.bower_components %>/openui5-sap.ui.core/resources',
 						'<%= dir.bower_components %>/openui5-sap.m/resources',
+						'<%= dir.bower_components %>/openui5-sap.ui.unified/resources',
 						'<%= dir.bower_components %>/openui5-sap.f/resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.layout/resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.unified/resources',
@@ -62,6 +65,7 @@ module.exports = function(grunt) {
 					testresources: [
 						'<%= dir.bower_components %>/openui5-sap.ui.core/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.m/test-resources',
+						'<%= dir.bower_components %>/openui5-sap.ui.unified/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.f/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.layout/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.unified/test-resources',
