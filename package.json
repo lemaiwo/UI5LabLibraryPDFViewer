@@ -10,7 +10,7 @@
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified. Please add some.\" && exit 1",
-    "postinstall": "bower install",
+    "postinstall": "node ./script.js",
     "start": "grunt"
   },
   "devDependencies": {
@@ -20,7 +20,6 @@
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-eslint": "^19.0.0",
-    "grunt-openui5": "^0.12.0",
-    "ui5lab-browser": "^0.1.0"
+    "grunt-openui5": "^0.12.0"
   }
 }
