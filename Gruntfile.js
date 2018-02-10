@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 
-		libraryName: 'ui5lab.wl.img',
+		libraryName: 'ui5lab.wl.pdf',
 
 		dir: {
 			src: 'src',
