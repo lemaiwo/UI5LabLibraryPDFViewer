@@ -27,8 +27,8 @@ sap.ui.define(["sap/ui/core/Control",
 				ControlUtils.getText(this.getPageStatus.bind(this)),
 				ControlUtils.getButton(false, 'sys-prev-page', this.prevPage.bind(this)),
 				ControlUtils.getButton(false, 'sys-next-page', this.nextPage.bind(this)),
-				ControlUtils.getButton(false, 'download', this.download.bind(this)),
-				ControlUtils.getSpacer()
+				ControlUtils.getSpacer(),
+				ControlUtils.getButton(false, 'download', this.download.bind(this))
 			]);
 			this._toolbar.setModel(new JSONModel({
 				currentpage: 0,
