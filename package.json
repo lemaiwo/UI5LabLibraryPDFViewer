@@ -2,11 +2,11 @@
   "name": "ui5lab-wl-pdf",
   "version": "0.0.1",
   "description": "A library with a PDF control that will show a PDF based on a base64 data uri",
-  "repository" : {
-      "type" : "git",
-      "url" : "https://github.com/lemaiwo/UI5LabLibraryPDFViewer.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemaiwo/UI5LabLibraryPDFViewer.git"
   },
-  "license" : "MIT",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified. Please add some.\" && exit 1",

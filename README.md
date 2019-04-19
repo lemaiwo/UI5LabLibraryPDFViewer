@@ -17,7 +17,7 @@ The PDFViewer is a custom UI5 control that enables you to view PDF's by using a 
 <img src="https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/images/manifestlib.png"/>
 
 3. Use the PDF Control
-<img src="https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/images/pdfview.png"/>
+<img src="https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/images/pdfview1.png"/>
 
 ## Build
 npm install
