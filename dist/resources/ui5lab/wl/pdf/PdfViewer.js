@@ -101,7 +101,14 @@ sap.ui.define(["sap/ui/core/Control",
 			this.displayPDF(this.pageNumber);
 		},
 		download: function () {
-			new File.save(atob(this.getPdfSource().split(",")[1]), this.getPdfName(), "pdf", this.getPdfSource().split(",")[0], "utf8");
+			var linkSource = "data:application/pdf;base64," + this.getPdfSource().split(",")[1],
+				downloadLink = document.createElement("a"),
+				fileName = this.getPdfName() + ".pdf";
+
+			downloadLink.href = linkSource;
+			downloadLink.download = fileName;
+			downloadLink.click();
+			//new File.save(atob(this.getPdfSource().split(",")[1]), this.getPdfName(), "pdf", "application/pdf", "utf-8");
 
 		},
 		updatePDF: function () {
